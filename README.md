@@ -1,6 +1,10 @@
 SCRATCH-APP
 ===========
 
+[![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
+)](https://developer.apple.com/iphone/index.action) [![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat
+)](https://developer.apple.com/swift) ![Repository](https://img.shields.io/badge/repository-private-orange.svg)
+
 ### Open Source Components
 
 1.	[AsynchDisplayKit](http://asyncdisplaykit.org)
@@ -53,6 +57,9 @@ A library to imitate the drawer in Maps for iOS 10. The master branch follows th
 16. [Design Sizes & Tips](http://ramotion.github.io/iOS-design-tips/) by Ramotion
 
 17. [Parallax View](https://github.com/PGSSoft/ParallaxView)
+
+18. [Instagram Feeds View](https://github.com/sagarshirbhate/Instagram-Feed-View) ★★★
+Excellent resource for Storyboard and component Nib/Xib files. Excellent example of interface.
 
 ### Competitive Components
 
