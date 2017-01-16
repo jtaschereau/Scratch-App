@@ -15,6 +15,7 @@
 		1EA2FC791E2C003A007E11F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA2FC771E2C003A007E11F8 /* LaunchScreen.storyboard */; };
 		1EA2FC841E2C003A007E11F8 /* Scratch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2FC831E2C003A007E11F8 /* Scratch_AppTests.swift */; };
 		1EA2FC8F1E2C003A007E11F8 /* Scratch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2FC8E1E2C003A007E11F8 /* Scratch_AppUITests.swift */; };
+		1EA2FC9D1E2C2315007E11F8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2FC9C1E2C2315007E11F8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1EA2FC8A1E2C003A007E11F8 /* Scratch-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scratch-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA2FC8E1E2C003A007E11F8 /* Scratch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scratch_AppUITests.swift; sourceTree = "<group>"; };
 		1EA2FC901E2C003A007E11F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA2FC9C1E2C2315007E11F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1EA2FC5F1E2C003A007E11F8 = {
 			isa = PBXGroup;
 			children = (
+				1EA2FC9C1E2C2315007E11F8 /* README.md */,
 				1EA2FC6A1E2C003A007E11F8 /* Scratch-App */,
 				1EA2FC821E2C003A007E11F8 /* Scratch-AppTests */,
 				1EA2FC8D1E2C003A007E11F8 /* Scratch-AppUITests */,
@@ -100,12 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				1EA2FC6B1E2C003A007E11F8 /* AppDelegate.swift */,
-				1EA2FC6D1E2C003A007E11F8 /* ViewController.swift */,
-				1EA2FC6F1E2C003A007E11F8 /* Main.storyboard */,
-				1EA2FC751E2C003A007E11F8 /* Assets.xcassets */,
-				1EA2FC771E2C003A007E11F8 /* LaunchScreen.storyboard */,
-				1EA2FC7A1E2C003A007E11F8 /* Info.plist */,
-				1EA2FC721E2C003A007E11F8 /* Scratch_App.xcdatamodeld */,
+				1EA2FC9E1E2C2329007E11F8 /* Main Scene */,
+				1EA2FC9F1E2C2344007E11F8 /* Resources */,
 			);
 			path = "Scratch-App";
 			sourceTree = "<group>";
@@ -126,6 +125,26 @@
 				1EA2FC901E2C003A007E11F8 /* Info.plist */,
 			);
 			path = "Scratch-AppUITests";
+			sourceTree = "<group>";
+		};
+		1EA2FC9E1E2C2329007E11F8 /* Main Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1EA2FC6F1E2C003A007E11F8 /* Main.storyboard */,
+				1EA2FC6D1E2C003A007E11F8 /* ViewController.swift */,
+			);
+			name = "Main Scene";
+			sourceTree = "<group>";
+		};
+		1EA2FC9F1E2C2344007E11F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EA2FC7A1E2C003A007E11F8 /* Info.plist */,
+				1EA2FC721E2C003A007E11F8 /* Scratch_App.xcdatamodeld */,
+				1EA2FC771E2C003A007E11F8 /* LaunchScreen.storyboard */,
+				1EA2FC751E2C003A007E11F8 /* Assets.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +286,7 @@
 			files = (
 				1EA2FC6E1E2C003A007E11F8 /* ViewController.swift in Sources */,
 				1EA2FC741E2C003A007E11F8 /* Scratch_App.xcdatamodeld in Sources */,
+				1EA2FC9D1E2C2315007E11F8 /* README.md in Sources */,
 				1EA2FC6C1E2C003A007E11F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
